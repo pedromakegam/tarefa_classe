@@ -1,3 +1,9 @@
+/**
+ * @author pedrovanderlansantana
+ * @since Versão 1.0
+ */
+
+
 public class Carro {
 
     private String fabricante;
@@ -5,7 +11,6 @@ public class Carro {
     private String tipoCombustivel;
     private int ano;
     private String condicao;
-
 
 
    public void setFabricante(String fabricante) {
@@ -28,6 +33,9 @@ public class Carro {
         this.condicao = condicao;
     }
 
+    /**
+     * metodo para exibir os dados da classe
+     */
    public void exibirDadosDoCarro(){
        System.out.println(fabricante);
        System.out.println(modelo);
